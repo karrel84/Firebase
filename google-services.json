@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "26558941709",
+    "firebase_url": "https://fir-a4f47.firebaseio.com",
+    "project_id": "fir-a4f47",
+    "storage_bucket": "fir-a4f47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26558941709:android:14e7a79667f0753c",
+        "android_client_info": {
+          "package_name": "karrel.kr.co.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26558941709-flerepj72q8vdjenobveb0g1kechjrvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdjS04usNgjPn_AwWmqgVzRx4runJ5zCE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

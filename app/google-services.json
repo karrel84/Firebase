@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "196800045537",
+    "firebase_url": "https://fir-22d1f.firebaseio.com",
+    "project_id": "fir-22d1f",
+    "storage_bucket": "fir-22d1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196800045537:android:14e7a79667f0753c",
+        "android_client_info": {
+          "package_name": "karrel.kr.co.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196800045537-srmtusd6po2deeb9kc9b6k7l3fojq9q3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "karrel.kr.co.myapplication",
+            "certificate_hash": "b13010813336f6839d49b234f2a4bcbab09018f8"
+          }
+        },
+        {
+          "client_id": "196800045537-idh0amohleo0uqdmspndbt0h02shcb2u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8AictKZ5qPsQrjpEhp2bMZFW1LZhhOi4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "196800045537-idh0amohleo0uqdmspndbt0h02shcb2u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
