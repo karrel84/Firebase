@@ -1,8 +1,9 @@
-package karrel.kr.co.myapplication
+package karrel.kr.co.myapplication.realtime_database
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import com.google.firebase.database.*
+import karrel.kr.co.myapplication.R
 import kotlinx.android.synthetic.main.activity_rdb.*
 
 
@@ -21,7 +22,21 @@ class RealtimeDatabaseActivity : AppCompatActivity() {
         setupButtonEvents()
 
         setupDBEventListener()
+
+
+        writeNewUser()
     }
+
+    private fun writeNewUser() {
+        val db = FirebaseDatabase.getInstance("https://rxteam-sns.firebaseio.com/")
+        val refClass = db.getReference("class")
+
+
+        val user = ClassModel(1, "karrel", 36)
+
+        refClass.child("karrel").setValue(user)
+    }
+
 
     private fun setupDBEventListener() {
         myRef.addValueEventListener(object : ValueEventListener {
