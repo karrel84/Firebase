@@ -11,5 +11,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="RealtimeDatabase" />
+    <Button
+        android:id="@+id/FireStore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FireStore" />
 
 </LinearLayout>
